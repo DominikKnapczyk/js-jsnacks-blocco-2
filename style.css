@@ -1,3 +1,5 @@
+/* GLOBAL STYLE ---------------------------------------------------------------------- */
+
 body {
   background-color: #083b4c;
   text-align: center;
@@ -6,47 +8,20 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
 
   font-size: 20px;
   color: white;
 }
 
+.container {
+  width: 80vw;
+}
+
 hr {
   width: 80vw;
   margin: 100px 0;
-}
-
-form {
-  font-family: 'Courier New', Courier, monospace;
-}
-
-#emailInput {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-}
-
-#newEmailInput {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-}
-
-#output {
-  text-align: center;
-  color: white;
-  font-size: 30px;
-  font-family: 'Courier New', Courier, monospace;
-  margin-top: 30px;
-}
-
-#addEmailForm {
-  display: none;
 }
 
 button {
@@ -63,4 +38,23 @@ button {
 
 button:hover {
   background-color: #00b48a; 
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* ESERCIZIO JSnack2 ---------------------------------------------------------------------- */
+
+#div_red {
+  background-color: beige;
+  color: red;
+  border: 1px solid black;
+}
+
+#div_green {
+  color: green;
+  background-color: beige;
+  border: 1px solid black;
 }
