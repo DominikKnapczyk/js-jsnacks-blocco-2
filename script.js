@@ -20,6 +20,7 @@ function snack1Function() {
 // ESERCIZIO JSnack2 -------------------------------------------------------------------------------------------------------
 
 let snack2_array = [45, 3, 2, 88, 131, 412, 632, 43, 9, 224, 86, 45];
+
 var output2red = document.getElementById("div_red");
 var output2green = document.getElementById("div_green");
 
@@ -37,10 +38,11 @@ for (let i = 0; i < snack2_array.length; i++) {
 
 // ESERCIZIO JSnack3 -------------------------------------------------------------------------------------------------------
 
-
 let snack3_array = [66, 78, 32, 1, 4, 56, 373, 24, 98, 124, 153, 33, 79];
-var output3= document.getElementById("output3");
 let somma = 0;
+
+var output3= document.getElementById("output3");
+
 
 for (let i = 0; i < snack2_array.length; i++) {
   
@@ -57,9 +59,9 @@ output3.innerHTML += somma;
 
 // ESERCIZIO JSnack4 -------------------------------------------------------------------------------------------------------
 
-
 let array1_input = [66, 78, 32, 1, 4, 56, 373, 24, 98, 124, 153, 33, 79, 66, 212, 41, 64];
 let array2_input = [45, 3, 2, 88, 131];
+
 let outputArray1 = document.getElementById("output_array1");
 let outputArray2 = document.getElementById("output_array2");
 
@@ -70,3 +72,34 @@ while (array1_input.length != array2_input.length) {
 
 outputArray1.innerHTML = array1_input;
 outputArray2.innerHTML = array2_input;
+
+
+
+
+
+// ESERCIZIO JSnack5 -------------------------------------------------------------------------------------------------------
+
+let array5 = ["W", "W", "L", "X", "X", "W", "L", "X"]
+var vittorie = 0;
+var sconfitte = 0;
+var pareggi = 0;
+
+let outputVittorie = document.getElementById("output_vittorie");
+let outputSconfitte = document.getElementById("output_sconfitte");
+let outputPareggi = document.getElementById("output_pareggi");
+
+for (let i = 0; i < snack2_array.length; i++) {
+  if (array5[i] == "W") {
+    vittorie++;
+  }
+  else if (array5[i] == "L") {
+    sconfitte++;
+  }
+  else if (array5[i] == "X") {
+    pareggi++;
+  }
+}
+
+outputVittorie.innerHTML = vittorie;
+outputSconfitte.innerHTML = sconfitte;
+outputPareggi.innerHTML = pareggi;
