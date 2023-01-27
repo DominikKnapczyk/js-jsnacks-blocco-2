@@ -50,3 +50,23 @@ for (let i = 0; i < snack2_array.length; i++) {
 }
 
 output3.innerHTML += somma;
+
+
+
+
+
+// ESERCIZIO JSnack4 -------------------------------------------------------------------------------------------------------
+
+
+let array1_input = [66, 78, 32, 1, 4, 56, 373, 24, 98, 124, 153, 33, 79, 66, 212, 41, 64];
+let array2_input = [45, 3, 2, 88, 131];
+let outputArray1 = document.getElementById("output_array1");
+let outputArray2 = document.getElementById("output_array2");
+
+while (array1_input.length != array2_input.length) {
+  let lastElement = array1_input.pop();
+  array2_input.push(lastElement);
+}
+
+outputArray1.innerHTML = array1_input;
+outputArray2.innerHTML = array2_input;
