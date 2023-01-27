@@ -28,6 +28,13 @@ hr {
   margin: 100px 0;
 }
 
+.bold {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* ESERCIZIO JSnack1 ---------------------------------------------------------------------- */
+
 button {
   padding: 14px 20px;
   margin: 8px 0;
@@ -42,11 +49,6 @@ button {
 
 button:hover {
   background-color: #00b48a; 
-}
-
-.bold {
-  font-weight: bold;
-  font-size: 30px;
 }
 
 /* ESERCIZIO JSnack2 ---------------------------------------------------------------------- */
