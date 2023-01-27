@@ -18,6 +18,11 @@ body {
   width: 80vw;
 }
 
+h2 {
+  font-size: 50px;
+  color: aquamarine;
+}
+
 hr {
   width: 80vw;
   margin: 100px 0;
